@@ -1,0 +1,26 @@
+.coluna {
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.txt-cabecalho {
+    font-family: 'Times New Roman'; 
+    font-size: x-large; 
+    color:white;
+}
+
+.btn btn-primary {
+    background-color: #c4baff;
+    border-color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+}
