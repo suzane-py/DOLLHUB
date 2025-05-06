@@ -10,7 +10,7 @@ class Produto(models.Model):
     def __str__(self): # Retorna o nome do produto quando chamado
         return self.nome
     
-    @mark_safe
+    @mark_safe # Marca a string como segura para ser renderizada como HTML
     def get_foto(self): # Retorna a tag HTML para exibir a imagem do produto
         return f"<img src='/media/{self.foto}' width='50' height='50'/>"
 
